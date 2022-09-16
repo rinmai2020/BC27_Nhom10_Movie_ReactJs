@@ -1,0 +1,68 @@
+.chair-col {
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  display: inline-block;
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(106, 102, 102);
+  margin-bottom: 16px;
+}
+
+.chairs {
+  color: #ffffff;
+  background-color: #514e4e;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 14px;
+  align-items: baseline;
+  border: none;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  transition: all 0.5s;
+}
+
+.chairs:hover {
+  background-color: #d10b0b;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+/* Register */
+.logo-register {
+  // background-image: url("/public//images//bgdoctorstrange.png");
+  // height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 100px 600px;
+}
+.ant-row {
+  display: block;
+}
+.ant-col-8 {
+  max-width: 100%;
+}
+.ant-col-14 {
+  display: none;
+}
+.form-register {
+  background-color: white;
+  padding: 20px 40px;
+}
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
